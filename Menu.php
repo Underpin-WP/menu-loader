@@ -39,11 +39,11 @@ abstract class Menu {
 	}
 
 	public function __get( $key ) {
-		if ( isset( $this->$key ) ) {
-			return $this->$key;
-		} else {
+		if ( ! isset( $this->$key ) ) {
 			return new \WP_Error( 'batch_task_param_not_set', 'The batch task key ' . $key . ' could not be found.' );
 		}
+
+		return $this->$key;
 	}
 
 }
