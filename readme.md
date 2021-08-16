@@ -27,7 +27,7 @@ A very basic example could look something like this.
 ```php
 // Register menu
 underpin()->menus()->add( 'example-menu', [
-	'name'        => __( 'translate-able name', 'domain' ), // required. Fills "description" in register_nav_menu
+	'name'        => underpin()->__( 'translate-able name' ), // required. Fills "description" in register_nav_menu
 	'location'    => 'example-menu'                         // Required. See register_nav_menu
 ] );
 ```
