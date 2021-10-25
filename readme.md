@@ -1,6 +1,6 @@
 # Underpin Menu Loader
 
-Loader That assists with addming navigation menus to a WordPress website.
+Loader That assists with adding navigation menus to a WordPress website.
 
 ## Installation
 
