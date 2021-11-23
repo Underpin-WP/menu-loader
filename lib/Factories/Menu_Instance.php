@@ -1,9 +1,9 @@
 <?php
 
-namespace Underpin_Menus\Factories;
+namespace Underpin\Menus\Factories;
 
 use Underpin\Traits\Instance_Setter;
-use Underpin_Menus\Abstracts\Menu;
+use Underpin\Menus\Abstracts\Menu;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
