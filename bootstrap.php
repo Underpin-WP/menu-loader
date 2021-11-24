@@ -8,6 +8,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Add this loader.
 Underpin::attach( 'setup', new \Underpin\Factories\Observers\Loader( 'menus', [
-	'instance' => 'Underpin\Menus\Abstracts\Menu',
-	'default'  => 'Underpin\Menus\Factories\Menu_Instance',
+	'abstraction_class' => 'Underpin\Menus\Abstracts\Menu',
+	'default_factory'  => 'Underpin\Menus\Factories\Menu_Instance',
 ] ) );
